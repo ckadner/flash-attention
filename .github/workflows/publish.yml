@@ -17,7 +17,6 @@ jobs:
 
   build_wheels:
     name: Build Wheel
-    needs: setup_release
     runs-on: ${{ matrix.os }}
 
     strategy:
